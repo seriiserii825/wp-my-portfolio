@@ -1,8 +1,8 @@
-<?php 
+<?php
 
 add_action('init', 'register_post_types');
 function register_post_types(){
-    register_post_type('post_type_name', array(
+    register_post_type('portfolio', array(
         'label'  => null,
         'labels' => array(
             'name'               => 'Портфолио', // основное название для типа записи
@@ -29,11 +29,11 @@ function register_post_types(){
         'show_in_rest'        => null, // добавить в REST API. C WP 4.7
         'rest_base'           => null, // $post_type. C WP 4.7
         'menu_position'       => null,
-        'menu_icon'           => 'dashicons-images-alt2', 
+        'menu_icon'           => 'dashicons-images-alt2',
         //'capability_type'   => 'post',
         //'capabilities'      => 'post', // массив дополнительных прав для этого типа записи
         //'map_meta_cap'      => null, // Ставим true чтобы включить дефолтный обработчик специальных прав
         'hierarchical'        => false,
-        'supports'            => array('title','editor', ''), // 'title','editor','author','thumbnail','excerpt','trackbacks','custom-fields','comments','revisions','page-attributes','post-formats'
+        'supports'            => array('title','editor', 'thumbnail'), // 'title','editor','author','thumbnail','excerpt','trackbacks','custom-fields','comments','revisions','page-attributes','post-formats'
     ) );
 }
