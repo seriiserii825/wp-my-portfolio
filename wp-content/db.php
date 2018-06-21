@@ -1,0 +1,1 @@
+C:/OSPanel/domains/wp-my-portfolio.loc/wp-content/plugins/query-monitor/wp-content/db.php

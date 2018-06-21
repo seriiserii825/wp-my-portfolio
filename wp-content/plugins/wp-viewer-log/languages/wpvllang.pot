@@ -1,0 +1,184 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Viewer Log\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-16 23:09+0200\n"
+"PO-Revision-Date: 2013-06-17 11:13+0100\n"
+"Last-Translator: Sergio P.A. <info@dsergio.com>\n"
+"Language-Team: Sergio <info@dsergio.com>\n"
+"Language: en_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp-viewer-log.php:124 wp-viewer-log.php:356
+msgid "Options"
+msgstr ""
+
+#: wp-viewer-log.php:140
+msgid "Dashboard widget:"
+msgstr ""
+
+#: wp-viewer-log.php:143
+msgid "Link on Admin Bar:"
+msgstr ""
+
+#: wp-viewer-log.php:145
+msgid "Define Target:"
+msgstr ""
+
+#: wp-viewer-log.php:147
+msgid "<strong>Advanced Settings</strong>"
+msgstr ""
+
+#: wp-viewer-log.php:149
+msgid "Add Code:"
+msgstr ""
+
+#: wp-viewer-log.php:151
+msgid "Your custom code:"
+msgstr ""
+
+#: wp-viewer-log.php:167
+msgid "Errors"
+msgstr ""
+
+#: wp-viewer-log.php:167
+msgid "Error"
+msgstr ""
+
+#: wp-viewer-log.php:176
+msgid "View Log"
+msgstr ""
+
+#: wp-viewer-log.php:212
+msgid "I delete the contents of log."
+msgstr ""
+
+#: wp-viewer-log.php:216 wp-viewer-log.php:442 wp-viewer-log.php:444
+msgid "Added from the plugin WP Viewer Log"
+msgstr ""
+
+#: wp-viewer-log.php:217
+msgid "Added from the plugin WP Viewer Log with custom code"
+msgstr ""
+
+#: wp-viewer-log.php:282
+msgid "For security has not been edited wp-config.php file, edit it manually."
+msgstr ""
+
+#: wp-viewer-log.php:292 wp-viewer-log.php:381
+#, php-format
+msgid "%1sWithout Error%2s"
+msgstr ""
+
+#: wp-viewer-log.php:296 wp-viewer-log.php:317
+msgid "Options Plugin"
+msgstr ""
+
+#: wp-viewer-log.php:302
+msgid "Type"
+msgstr ""
+
+#: wp-viewer-log.php:302
+msgid "No."
+msgstr ""
+
+#: wp-viewer-log.php:320
+msgid "View Full Log"
+msgstr ""
+
+#: wp-viewer-log.php:355
+msgid "Log"
+msgstr ""
+
+#: wp-viewer-log.php:363
+#, php-format
+msgid "WP Viewer Log - Version: %s"
+msgstr ""
+
+#: wp-viewer-log.php:388
+msgid "Clear Log"
+msgstr ""
+
+#: wp-viewer-log.php:398
+msgid "WP Viewer Log"
+msgstr ""
+
+#: wp-viewer-log.php:400
+msgid "Settings saved."
+msgstr ""
+
+#: wp-viewer-log.php:403
+msgid "Plugin Options"
+msgstr ""
+
+#: wp-viewer-log.php:421
+msgid "Info"
+msgstr ""
+
+#: wp-viewer-log.php:427
+msgid "Important"
+msgstr ""
+
+#: wp-viewer-log.php:435
+msgid "- You can add a widget on the desktop, by default is enabled."
+msgstr ""
+
+#: wp-viewer-log.php:436
+msgid ""
+"- If you activate the admin bar link will be displayed only when there are "
+"errors and select target to open link."
+msgstr ""
+
+#: wp-viewer-log.php:437
+msgid "- Edit the wp-config.php file to configure the WP_DEBUG."
+msgstr ""
+
+#: wp-viewer-log.php:438
+msgid "- The default code is:"
+msgstr ""
+
+#: wp-viewer-log.php:453
+msgid ""
+"- If you manually add code after using the plugin were eliminated because "
+"they always used the copy for editing."
+msgstr ""
+
+#: wp-viewer-log.php:454
+msgid ""
+"- If you disable the custom code file wp-config.php will be restored to its "
+"original state before activating the plugin."
+msgstr ""
+
+#: wp-viewer-log.php:455
+msgid ""
+"- If you configure your wp-config.php without the plugin, the widget as the "
+"page log work."
+msgstr ""
+
+#: wp-viewer-log.php:471 wp-viewer-log.php:516
+msgid "Disabled"
+msgstr ""
+
+#: wp-viewer-log.php:477
+msgid "Enable"
+msgstr ""
+
+#: wp-viewer-log.php:483
+msgid "Also enabled on Front End"
+msgstr ""
+
+#: wp-viewer-log.php:522
+msgid "Enabled"
+msgstr ""
+
+#: wp-viewer-log.php:528
+msgid "Custom Code"
+msgstr ""

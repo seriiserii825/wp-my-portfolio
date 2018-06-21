@@ -240,7 +240,7 @@ Main components
   padding-top:5px;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.85);
+  background: #6b6b6b;
   height: 50px;
   width: 100%;
   z-index: 3000;
@@ -251,7 +251,7 @@ Main components
 @media only screen and (min-width: 768px) {
   .cd-header {
     height: 80px;
-  background: rgba(0, 0, 0, 0.86);
+  background: #6b6b6b;
     box-shadow: none;
   }
 }
@@ -273,7 +273,7 @@ Main components
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
     top: -80px;
-    background-color: rgba(0, 0, 0, 0.86);
+    background-color: #6b6b6b;
     -webkit-transition: -webkit-transform 0.3s;
     -moz-transition: -moz-transform 0.3s;
     transition: transform 0.3s;
@@ -411,7 +411,7 @@ Main components
   top: 0;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.96);
+  background: #6b6b6b;
   z-index: 2000;
   text-align: center;
   -webkit-backface-visibility: hidden;
@@ -473,7 +473,7 @@ Main components
   transition: background 0.3s, color 0.3s;
 }
 .no-touch .cd-primary-nav a:hover {
-	color:#fff;
+	color: orange;
 }
 .cd-primary-nav .cd-label {
   color: #fff;
@@ -485,6 +485,9 @@ Main components
     -o-transition: all 300ms linear;
     -ms-transition: all 300ms linear;
     transition: all 300ms linear; 
+}
+.cd-primary-nav li.current-menu-item a {
+  color: orange;
 }
 .cd-primary-nav.is-visible {
   -webkit-transform: translateY(0);
@@ -639,21 +642,7 @@ body::before {
   width: 100%;
   z-index: 2;
 }
-.cd-section:first-of-type > div {
-  background-image: url('../images/1.jpg');
-}
-.cd-section:nth-of-type(2) > div {
-  background-image: url('../images/2.jpg');
-}
-.cd-section:nth-of-type(3) > div {
-  background-image: url('../images/3.jpg');
-}
-.cd-section:nth-of-type(4) > div {
-  background-image: url('../images/4.jpg');
-}
-.cd-section:nth-of-type(5) > div {
-  background-image: url('../images/5.jpg');
-}
+
 [data-animation="parallax"] .cd-section > div, [data-animation="fixed"] .cd-section > div, [data-animation="opacity"] .cd-section > div {
   background-position: center center;
   background-repeat: no-repeat;
@@ -800,7 +789,7 @@ body::before {
 	transform: translateY(-50%);
 }
 .hero-top h2{
-	font-size: 90px; 
+	font-size: 40px; 
 	text-align:center;
 	line-height:90px;
 	letter-spacing:25px;
@@ -844,7 +833,7 @@ body::before {
 	letter-spacing:3px;
 	color: #fff;
 	padding:12px 25px;
-	background:rgba(0,0,0,.9);
+	background:#6b6b6b;
 }
 
 .social-top{ 
