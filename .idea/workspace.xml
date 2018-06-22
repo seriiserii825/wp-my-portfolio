@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb79106b-dfbb-4c43-8119-e414e123d178" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/my-portfolio/inc/carbon-fields/category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/my-portfolio/inc/carbon-fields/last-update-widget.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/my-portfolio/inc/widgets-sidebar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/thumb/expire" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/thumb/expire" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/thumb/expire_stub" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/thumb/expire_stub" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/my-portfolio/assets/css/templatemo_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/my-portfolio/assets/css/templatemo_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/my-portfolio/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/my-portfolio/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/my-portfolio/inc/after_setup_theme.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/my-portfolio/inc/after_setup_theme.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/my-portfolio/page-index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/my-portfolio/page-index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/my-portfolio/functions.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-end-line="18" selection-end-column="1" />
+              <caret line="18" column="1" selection-start-line="18" selection-end-line="18" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -54,11 +45,8 @@
       <file leaf-file-name="page-index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/my-portfolio/page-index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="67" column="78" lean-forward="true" selection-start-line="67" selection-start-column="78" selection-end-line="67" selection-end-column="78" />
-              <folding>
-                <element signature="e#1991#1996#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="1206">
+              <caret line="67" column="78" selection-start-line="67" selection-start-column="78" selection-end-line="67" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -66,8 +54,8 @@
       <file leaf-file-name="templatemo_style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/my-portfolio/assets/css/templatemo_style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="357" column="24" selection-start-line="357" selection-start-column="24" selection-end-line="357" selection-end-column="24" />
+            <state relative-caret-position="387">
+              <caret line="374" column="16" lean-forward="true" selection-start-line="374" selection-start-column="16" selection-end-line="374" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -231,74 +219,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="wp-my-portfolio.loc" type="cbb8eebc:String" user="wp-my-portfolio.loc" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="wp-my-portfolio.loc" type="cbb8eebc:String" user="wp-my-portfolio.loc" />
-              <item name="wp-admin" type="cbb8eebc:String" user="wp-admin" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="wp-my-portfolio.loc" type="cbb8eebc:String" user="wp-my-portfolio.loc" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="wp-my-portfolio.loc" type="cbb8eebc:String" user="wp-my-portfolio.loc" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="wp-my-portfolio.loc" type="cbb8eebc:String" user="wp-my-portfolio.loc" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="my-portfolio" type="cbb8eebc:String" user="my-portfolio" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="wp-my-portfolio.loc" type="cbb8eebc:String" user="wp-my-portfolio.loc" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="my-portfolio" type="cbb8eebc:String" user="my-portfolio" />
-              <item name="assets" type="cbb8eebc:String" user="assets" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="wp-my-portfolio.loc" type="cbb8eebc:String" user="wp-my-portfolio.loc" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="my-portfolio" type="cbb8eebc:String" user="my-portfolio" />
-              <item name="assets" type="cbb8eebc:String" user="assets" />
-              <item name="css" type="cbb8eebc:String" user="css" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="wp-my-portfolio.loc" type="cbb8eebc:String" user="wp-my-portfolio.loc" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="my-portfolio" type="cbb8eebc:String" user="my-portfolio" />
-              <item name="inc" type="cbb8eebc:String" user="inc" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="wp-my-portfolio.loc" type="cbb8eebc:String" user="wp-my-portfolio.loc" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="my-portfolio" type="cbb8eebc:String" user="my-portfolio" />
-              <item name="inc" type="cbb8eebc:String" user="inc" />
-              <item name="carbon-fields" type="cbb8eebc:String" user="carbon-fields" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -340,6 +260,22 @@
               <item name="my-portfolio" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="inc" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="carbon-fields" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="wp-my-portfolio.loc" type="cbb8eebc:String" user="wp-my-portfolio.loc" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="wp-my-portfolio.loc" type="cbb8eebc:String" user="wp-my-portfolio.loc" />
+              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
             </path>
           </expand>
           <select />
@@ -410,9 +346,8 @@
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4993007" visible="true" weight="0.1747851" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4993007" visible="true" weight="0.21060172" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Messages" weight="0.32867134" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
@@ -429,6 +364,7 @@
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32867134" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32867134" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,6 +387,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/my-portfolio/assets/css/templatemo_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6426">
+          <caret line="357" column="24" selection-start-line="357" selection-start-column="24" selection-end-line="357" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/my-portfolio/html/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
@@ -707,9 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/my-portfolio/inc/carbon-fields/if-plugin-exist.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/my-portfolio/inc/after_setup_theme.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -728,9 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#7#35#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -752,16 +689,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
-          <folding>
-            <element signature="e#6#31#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/my-portfolio/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-end-line="18" selection-end-column="1" />
+          <caret line="18" column="1" selection-start-line="18" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -769,26 +703,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding>
-            <element signature="e#7#31#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/my-portfolio/page-index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="67" column="78" lean-forward="true" selection-start-line="67" selection-start-column="78" selection-end-line="67" selection-end-column="78" />
-          <folding>
-            <element signature="e#1991#1996#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="1206">
+          <caret line="67" column="78" selection-start-line="67" selection-start-column="78" selection-end-line="67" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/my-portfolio/assets/css/templatemo_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="357" column="24" selection-start-line="357" selection-start-column="24" selection-end-line="357" selection-end-column="24" />
+        <state relative-caret-position="387">
+          <caret line="374" column="16" lean-forward="true" selection-start-line="374" selection-start-column="16" selection-end-line="374" selection-end-column="16" />
         </state>
       </provider>
     </entry>

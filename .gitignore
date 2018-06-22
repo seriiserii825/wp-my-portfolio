@@ -1,1 +1,6 @@
 .idea/
+wp-admin/
+wp-includes/
+wp-content/cache/
+wp-content/languages/
+wp-config.php/
