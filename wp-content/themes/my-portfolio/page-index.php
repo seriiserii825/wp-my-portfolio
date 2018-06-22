@@ -38,87 +38,92 @@ get_header();
 	<div class="fp_services_box">
 		<div class="fps_title"><a href="#">Interactive Media</a></div>
 		<p>Etiam magna metus, hendrerit non aliquam nec, tincidunt nec metus.</p>
-		<a href="#" class="sb_more">More</a>
+		<a href="#" class="sb_more">More</a>из
 	</div>
 
 </div> <!-- end of templatemo fp services -->
 
-<div id="templatemo_main">
+<div class="container">
+	<div id="templatemo_main">
+		<div class="templatemo__main-left">
+			<h2> Latest Updates</h2>
 
-	<div class="col_w620 float_r">
-		<h2>Who We Are</h2>
+			<div class="fp_news_box">
+				<img src="<?php bloginfo('template_url'); ?>/assets/images/templatemo_image_03.jpg" alt="News One"/>
+				<h6><a href="#">Quisque ornare pulvinar</a></h6>
+				Aliquam lacus turpis, dapibus eget, tincidunt eu. Integer pellentesque dignissim.
+				<div class="fp_news_date">June 28, 2048</div>
+				<div class="cleaner"></div>
+			</div>
 
-		<img src="<?php bloginfo('template_url'); ?>/assets/images/templatemo_image_01.jpg"
-			 class="image_wrapper image_fr" alt="banner"/>
+			<div class="fp_news_box">
+				<img src="<?php bloginfo('template_url'); ?>/assets/images/templatemo_image_02.jpg" alt="News Two"/>
+				<h6><a href="#">Nullam consectetur</a></h6>
+				Nam id nibh quis nisi tristique pharetra a ut leo. Aenean vel lorem odio.
+				<div class="fp_news_date">June 24, 2048</div>
+				<div class="cleaner"></div>
+			</div>
 
-		<p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum velit in tortor faucibus id tempus
-				enim sodales. Vestibulum quam purus, euismod eget malesuada sit amet, condimentum id massa. </em></p>
+			<div class="fp_news_box">
+				<img src="<?php bloginfo('template_url'); ?>/assets/images/templatemo_image_04.jpg" alt="News Three"/>
+				<h6><a href="#">Pellentesque consequat</a></h6>
+				Pellentesque lectus justo, fermentum in, ornare vitae, vehicula eu, felis.
+				<div class="fp_news_date">June 22, 2048</div>
+				<div class="cleaner"></div>
+			</div>
+			<a class="more" href="#">View All</a>
+		</div>
 
-		<p align="justify"><a href="#">Light Gray Template</a> is provided for your personal or commercial websites.
-			Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow"><strong>XHTML</strong></a> &amp;
-			<a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow"><strong>CSS</strong></a>. Credits
-			go to <a href="http://www.photovaco.com" target="_blank">Free Photos</a> for photos and <a
-					href="http://www.vectorvaco.com" target="_blank">Free Vectors</a> for icons used in this template.
-			Etiam magna metus, hendrerit non aliquam nec, tincidunt nec metus. Sed nec odio vel nulla pellentesque
-			sodales a molestie nisi.
-		</p>
+		<div class="templatemo__main-right">
+			<h2>Who We Are</h2>
 
-		<div class="cleaner h10"></div>
+			<img src="<?php bloginfo('template_url'); ?>/assets/images/templatemo_image_01.jpg"
+				 class="image_wrapper image_fr" alt="banner"/>
 
-		<ul class="tmo_list float_l">
-			<li><a href="#">Sed elementum velit in tortor faucibus</a></li>
-			<li><a href="#">Praesent tempor quam a turpis volutpat</a></li>
-			<li><a href="#">Etiam adipiscing massa ut tortor </a></li>
-			<li><a href="#">Nullam consectetur volutpat adipiscing</a></li>
-			<li><a href="#"> Sed turpis dolor, tincidunt in tempor</a></li>
-		</ul>
+			<p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum velit in tortor faucibus id
+					tempus
+					enim sodales. Vestibulum quam purus, euismod eget malesuada sit amet, condimentum id massa. </em>
+			</p>
 
-		<ul class="tmo_list float_r">
-			<li><a href="#">Etiam adipiscing massa ut tortor </a></li>
-			<li><a href="#">Nullam consectetur volutpat adipiscing</a></li>
-			<li><a href="#"> Sed turpis dolor, tincidunt in tempor</a></li>
-			<li><a href="#">Sed elementum velit in tortor faucibus</a></li>
-			<li><a href="#">Praesent tempor quam a turpis</a></li>
-		</ul>
+			<p align="justify"><a href="#">Light Gray Template</a> is provided for your personal or commercial websites.
+				Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow"><strong>XHTML</strong></a>
+				&amp; <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow"><strong>CSS</strong></a>.
+				Credits
+				go to <a href="http://www.photovaco.com" target="_blank">Free Photos</a> for photos and <a
+						href="http://www.vectorvaco.com" target="_blank">Free Vectors</a> for icons used in this
+				template.
+				Etiam magna metus, hendrerit non aliquam nec, tincidunt nec metus. Sed nec odio vel nulla pellentesque
+				sodales a molestie nisi.
+			</p>
 
-		<div class="cleaner"></div>
+			<div class="cleaner h10"></div>
 
-		<a class="more" href="#">More</a>
+			<ul class="tmo_list float_l">
+				<li><a href="#">Sed elementum velit in tortor faucibus</a></li>
+				<li><a href="#">Praesent tempor quam a turpis volutpat</a></li>
+				<li><a href="#">Etiam adipiscing massa ut tortor </a></li>
+				<li><a href="#">Nullam consectetur volutpat adipiscing</a></li>
+				<li><a href="#"> Sed turpis dolor, tincidunt in tempor</a></li>
+			</ul>
+
+			<ul class="tmo_list float_r">
+				<li><a href="#">Etiam adipiscing massa ut tortor </a></li>
+				<li><a href="#">Nullam consectetur volutpat adipiscing</a></li>
+				<li><a href="#"> Sed turpis dolor, tincidunt in tempor</a></li>
+				<li><a href="#">Sed elementum velit in tortor faucibus</a></li>
+				<li><a href="#">Praesent tempor quam a turpis</a></li>
+			</ul>
+
+			<div class="cleaner"></div>
+
+			<a class="more" href="#">More</a>
+
+		</div>
 
 	</div>
-
-	<div class="col_w300 float_l">
-		<h2> Latest Updates</h2>
-
-		<div class="fp_news_box">
-			<img src="<?php bloginfo('template_url'); ?>/assets/images/templatemo_image_03.jpg" alt="News One"/>
-			<h6><a href="#">Quisque ornare pulvinar</a></h6>
-			Aliquam lacus turpis, dapibus eget, tincidunt eu. Integer pellentesque dignissim.
-			<div class="fp_news_date">June 28, 2048</div>
-			<div class="cleaner"></div>
-		</div>
-
-		<div class="fp_news_box">
-			<img src="<?php bloginfo('template_url'); ?>/assets/images/templatemo_image_02.jpg" alt="News Two"/>
-			<h6><a href="#">Nullam consectetur</a></h6>
-			Nam id nibh quis nisi tristique pharetra a ut leo. Aenean vel lorem odio.
-			<div class="fp_news_date">June 24, 2048</div>
-			<div class="cleaner"></div>
-		</div>
-
-		<div class="fp_news_box">
-			<img src="<?php bloginfo('template_url'); ?>/assets/images/templatemo_image_04.jpg" alt="News Three"/>
-			<h6><a href="#">Pellentesque consequat</a></h6>
-			Pellentesque lectus justo, fermentum in, ornare vitae, vehicula eu, felis.
-			<div class="fp_news_date">June 22, 2048</div>
-			<div class="cleaner"></div>
-		</div>
-		<a class="more" href="#">View All</a>
-	</div>
-
-	<div class="cleaner"></div>
-</div> <!-- end of main -->
+</div>
 <div id="templatemo_main_bottom"></div>
-<div class="cleaner"></div></div><!-- end of templatemo wrapper --></div> <!-- end of templatemo body wrapper -->
+</div><!-- end of templatemo wrapper -->
+</div> <!-- end of templatemo body wrapper -->
 
 <?php get_footer(); ?>
