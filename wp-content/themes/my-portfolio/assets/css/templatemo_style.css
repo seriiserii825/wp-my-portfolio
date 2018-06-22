@@ -347,20 +347,33 @@ h6 {
 }
 
 #templatemo_fp_services {
-    clear: both;
-    height: 175px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 992px) {
+    #templatemo_fp_services {
+        display: block;
+    }
 }
 
 .fp_services_box {
-    float: left;
     width: 260px;
-    height: 135px;
+    min-height: 135px;
     padding: 20px;
     margin-right: 20px;
     background: url(../images/templamteo_service_bg.png) right center no-repeat;
     color: #fff;
     font-size: 16px;
     text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+    .fp_services_box {
+        display: table;
+        margin: 10px auto;
+        margin: 10px auto;
+    }
 }
 
 .fp_services_box .fps_title {
@@ -631,7 +644,6 @@ h6 {
     max-width: 1200px;
 }
 
-#templatemo_fp_services,
 #templatemo_main,
 #contact_form,
 #gallery,
@@ -640,14 +652,10 @@ h6 {
 }
 
 @media screen and (max-width: 450px) {
-    #site-title,
-    #search_box {
-        float: none;
-    }
-
     #site_title,
     #search_box{
-        margin-bottom: 20px;
+        display: table;
+        margin: 0 auto 20px;
         float: none;
     }
 }

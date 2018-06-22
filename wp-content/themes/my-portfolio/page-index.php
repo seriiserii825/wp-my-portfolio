@@ -23,7 +23,7 @@
 
 </div> <!-- end of middle -->
 
-<div id="templatemo_fp_services">
+<div id="templatemo_fp_services" class="container">
 
 	<div class="fp_services_box">
 		<div class="fps_title"><a href="#">Web Design</a></div>
@@ -37,7 +37,7 @@
 		<a href="#" class="sb_more">More</a>
 	</div>
 
-	<div class="fp_services_box l_box">
+	<div class="fp_services_box">
 		<div class="fps_title"><a href="#">Interactive Media</a></div>
 		<p>Etiam magna metus, hendrerit non aliquam nec, tincidunt nec metus.</p>
 		<a href="#" class="sb_more">More</a>
