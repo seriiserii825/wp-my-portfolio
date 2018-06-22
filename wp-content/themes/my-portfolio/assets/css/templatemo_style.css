@@ -54,6 +54,10 @@ p {
     padding: 0;
 }
 
+ul {
+    list-style-type: none;
+}
+
 img {
     border: none;
 }
@@ -171,28 +175,28 @@ h6 {
     margin: 3px 0 0 30px
 }
 
-.tmo_list {
+ul {
     margin: 20px 0 20px 10px;
     padding: 0;
     list-style: none
 }
 
 
-.tmo_list li {
+ul li {
     color: #3d8e7d;
     margin: 0;
     padding: 0 0 5px 20px;
     background: url(../images/templatmeo_list.png) no-repeat scroll 0 3px
 }
 
-.tmo_list li a {
+ul li a {
     color: #3d8e7d;
     font-weight: normal;
     font-size: 12px;
     text-decoration: none
 }
 
-.tmo_list li a:hover {
+ul li a:hover {
     color: #000
 }
 
@@ -438,6 +442,10 @@ h6 {
     padding: 30px 0;
 }
 
+.templatemo__main__item {
+    padding: 0 15px;
+}
+
 @media screen and (max-width: 1200px) {
     #templatemo_main {
         flex-direction: column;
@@ -465,8 +473,8 @@ h6 {
 }
 
 @media screen and (max-width: 500px) {
-    #templatemo_main .tmo_list.float_r,
-    #templatemo_main .tmo_list.float_l{
+    #templatemo_main ul.float_r,
+    #templatemo_main ul.float_l{
         float: none;
         display: block;
     }
@@ -482,28 +490,29 @@ h6 {
 
 
 .fp_news_box {
-    clear: both;
     margin-bottom: 30px
 }
 
 .fp_news_box_header {
-    display: flex;
-    justify-content: space-between;
+    height: 116px;
+    overflow: hidden;
 }
 
 .fp_news_box .img-wrap {
-    margin-right: 20px;
-    flex-basis: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    width: 40px;
     height: 90px;
 }
 
 .fp_news_box .content {
-    flex-basis: 70%;
+    display: inline-block;
+    vertical-align: top;
+    width: 160px;
 }
 
 .fp_news_box img {
-    float: left;
-    margin-right: 15px;
     padding-top: 3px
 }
 

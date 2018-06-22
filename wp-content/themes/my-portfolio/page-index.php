@@ -27,7 +27,7 @@ get_header();
         <?php $javascript_posts = new WP_Query(['category_name' => 'javascript', 'posts_per_page' => 1]) ?>
         <?php if ($javascript_posts->have_posts()) : while ($javascript_posts->have_posts()) : $javascript_posts->the_post(); ?>
 			<div class="content">
-				<div class="fps_title"><a href="#">Web Design</a></div>
+				<div class="fps_title"><a href="#">JavaScript</a></div>
 				<p><?php the_excerpt(); ?></p>
 			</div>
 			<a href="<?php the_permalink(); ?>" class="sb_more">More</a>
@@ -60,7 +60,7 @@ get_header();
 
 <div class="container">
 	<div id="templatemo_main">
-		<div class="templatemo__main-left">
+		<div class="templatemo__main__item templatemo__main-left">
             <?php if(!dynamic_sidebar('templatemo_main_left_widget')):?>
 				<h2>Виджет последних записей Carbon</h2>
             <?php endif;  ?>
@@ -68,49 +68,22 @@ get_header();
 			<a class="more" href="<?php echo get_page_uri(14);?>">View All</a>
 		</div>
 
-		<div class="templatemo__main-right">
+		<div class="templatemo__main__item templatemo__main-center">
 			<h2>Who We Are</h2>
+            	<?php echo carbon_get_post_meta(18, 'about_cite');?>
 
-			<img src="<?php bloginfo('template_url'); ?>/assets/images/templatemo_image_01.jpg"
-				 class="image_wrapper image_fr" alt="banner"/>
+			<a class="more" href="<?php echo get_page_link(18);?>">More</a>
 
-			<p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum velit in tortor faucibus id
-					tempus
-					enim sodales. Vestibulum quam purus, euismod eget malesuada sit amet, condimentum id massa. </em>
-			</p>
+		</div>
 
-			<p align="justify"><a href="#">Light Gray Template</a> is provided for your personal or commercial websites.
-				Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow"><strong>XHTML</strong></a>
-				&amp; <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow"><strong>CSS</strong></a>.
-				Credits
-				go to <a href="http://www.photovaco.com" target="_blank">Free Photos</a> for photos and <a
-						href="http://www.vectorvaco.com" target="_blank">Free Vectors</a> for icons used in this
-				template.
-				Etiam magna metus, hendrerit non aliquam nec, tincidunt nec metus. Sed nec odio vel nulla pellentesque
-				sodales a molestie nisi.
-			</p>
+		<div class="templatemo__main__item templatemo__main-right">
+            <div class="img-wrap">
+				<img src="<?php echo carbon_get_post_meta(18, 'about_img');?>" alt="">
+			</div>
 
-			<div class="cleaner h10"></div>
+            <?php echo carbon_get_post_meta(18, 'about_text');?>
 
-			<ul class="tmo_list float_l">
-				<li><a href="#">Sed elementum velit in tortor faucibus</a></li>
-				<li><a href="#">Praesent tempor quam a turpis volutpat</a></li>
-				<li><a href="#">Etiam adipiscing massa ut tortor </a></li>
-				<li><a href="#">Nullam consectetur volutpat adipiscing</a></li>
-				<li><a href="#"> Sed turpis dolor, tincidunt in tempor</a></li>
-			</ul>
-
-			<ul class="tmo_list float_r">
-				<li><a href="#">Etiam adipiscing massa ut tortor </a></li>
-				<li><a href="#">Nullam consectetur volutpat adipiscing</a></li>
-				<li><a href="#"> Sed turpis dolor, tincidunt in tempor</a></li>
-				<li><a href="#">Sed elementum velit in tortor faucibus</a></li>
-				<li><a href="#">Praesent tempor quam a turpis</a></li>
-			</ul>
-
-			<div class="cleaner"></div>
-
-			<a class="more" href="#">More</a>
+			<a class="more" href="<?php echo get_page_link(18);?>">More</a>
 
 		</div>
 

@@ -51,7 +51,6 @@ class ThemeWidgetExample extends Widget{
 					</div>
 				</div>
 				<div class="fp_news_date"><?php echo get_the_date();?></div>
-				<div class="cleaner"></div>
 			</div>
 		<?php endwhile; ?>
 		    <?php else:?>
