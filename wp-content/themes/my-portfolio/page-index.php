@@ -5,7 +5,7 @@
 	get_header();
 ?>
 
-<div id="templatemo_middle">
+<div id="templatemo_middle" class="container">
 
 	<a href="#">
 		<img src="<?php echo carbon_get_post_meta(get_the_ID(), 'home_intro_img'); ?>" alt="Free Template"/>

@@ -196,15 +196,14 @@ h6 {
 }
 
 #templatemo_wrapper {
-    width: 940px;
     padding: 0 10px;
     margin: 0 auto;
     background: url(../images/templatmeo_body.png) top center no-repeat
 }
 
 #templatemo_header {
-    width: 940px;
-    height: 60px;
+    margin-bottom: 10px;
+    min-height: 60px;
     padding-top: 20px;
 }
 
@@ -212,18 +211,13 @@ h6 {
     float: left;
 }
 
-#site_title h1 {
-    margin: 0;
-    padding: 0;
-}
 
-#site_title h1 a {
+#site_title a {
     display: block;
     width: 180px;
-    height: 40px;
 }
 
-#site_title h1 a img {
+#site_title a img {
     max-width: 100%;
     height: auto;
     background: #8abbb9;
@@ -259,8 +253,7 @@ h6 {
 
 #templatemo_menu {
     clear: both;
-    width: 940px;
-    height: 53px;
+    min-height: 53px;
     background: url(../images/templamtemo_menu.png)
 }
 
@@ -308,7 +301,6 @@ h6 {
 
 #templatemo_middle {
     clear: both;
-    width: 860px;
     min-height: 240px;
     padding: 30px 40px;
     overflow: hidden;
@@ -333,6 +325,20 @@ h6 {
     margin-left: 60px
 }
 
+@media screen and (max-width: 992px) {
+    #templatemo_middle img{
+        float: none;
+        margin: 0 0 20px;
+    }
+}
+
+@media screen and (max-width: 538px) {
+    #templatemo_middle img{
+        width: 100%;
+        height: auto;
+    }
+}
+
 #learn_more a {
     display: block;
     width: 202px;
@@ -342,7 +348,6 @@ h6 {
 
 #templatemo_fp_services {
     clear: both;
-    width: 940px;
     height: 175px;
 }
 
@@ -402,7 +407,6 @@ h6 {
 
 #templatemo_main {
     clear: both;
-    width: 940px;
     padding: 30px 0;
 }
 
@@ -606,7 +610,6 @@ h6 {
 
 #templatemo_footer {
     clear: both;
-    width: 940px;
     padding: 10px 0;
     color: #000;
     text-align: center;
@@ -621,4 +624,96 @@ h6 {
 #templatemo_footer a:hover {
     color: #FFF;
     text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#templatemo_fp_services,
+#templatemo_main,
+#contact_form,
+#gallery,
+#templatemo_footer_wrapper{
+    display: none;
+}
+
+@media screen and (max-width: 450px) {
+    #site-title,
+    #search_box {
+        float: none;
+    }
+
+    #site_title,
+    #search_box{
+        margin-bottom: 20px;
+        float: none;
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .navbar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .main-menu {
+        display: none;
+    }
+
+    #templatemo_menu {
+        background-repeat: repeat-x;
+    }
+
+    #templatemo_menu ul {
+        padding-top: 20px;
+    }
+
+    #templatemo_menu ul li {
+        display: block;
+        margin-bottom: 5px;
+        float: none;
+        padding-left: 30px;
+        background: #fff;
+        transition: all .3s ease;
+    }
+
+    #templatemo_menu ul li:hover {
+        background: #ccc;
+    }
+
+    #templatemo_menu ul li a {
+        float: none;
+        text-align: left;
+        background: none;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 20px;
+        min-height: 38px;
+    }
+
+    .navbar .menu {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .close-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 26px;
+        height: 12px;
+    }
+    .close-menu span {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background: #ccc;
+    }
 }

@@ -4,19 +4,19 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="keywords" content=""/>
 	<meta name="description" content=""/>
-	<!--<link href="templatemo_style.css" rel="stylesheet" type="text/css" />-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
 <div id="templatemo_body_wrapper">
 	<div id="templatemo_wrapper">
 
-		<div id="templatemo_header">
+		<div id="templatemo_header" class="container">
 
 			<div id="site_title">
-				<h1>
-                    <?php the_custom_logo();?>
-				</h1>
+
+                <?php the_custom_logo(); ?>
+
 			</div>
 
 			<div id="search_box">
@@ -28,10 +28,17 @@
 
 		</div> <!-- end of templatemo header -->
 
-		<div id="templatemo_menu">
+		<div id="templatemo_menu" class="container">
+			<div class="navbar">
+				<span class="menu">menu</span>
+				<div class="close-menu" id="js-close-menu">
+					<span></span><span></span><span></span>
+				</div>
+			</div>
+
             <?php wp_nav_menu([
-            	'theme_location' => 'main-menu',
-				'container' => '',
-				'menu_class' => ''
-			]);?>
+                'theme_location' => 'main-menu',
+                'container' => '',
+                'menu_class' => 'main-menu'
+            ]); ?>
 		</div> <!-- end of templatemo_menu -->
