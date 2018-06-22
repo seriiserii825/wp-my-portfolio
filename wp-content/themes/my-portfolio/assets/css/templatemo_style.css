@@ -15,6 +15,11 @@ body {
     background-position: top
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 a, a:link, a:visited {
     color: #3d8e7d;
     font-weight: normal;
@@ -350,6 +355,7 @@ h6 {
 #templatemo_fp_services {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 992px) {
@@ -478,6 +484,21 @@ h6 {
 .fp_news_box {
     clear: both;
     margin-bottom: 30px
+}
+
+.fp_news_box_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fp_news_box .img-wrap {
+    margin-right: 20px;
+    flex-basis: 30%;
+    height: 90px;
+}
+
+.fp_news_box .content {
+    flex-basis: 70%;
 }
 
 .fp_news_box img {

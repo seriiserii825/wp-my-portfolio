@@ -61,43 +61,11 @@ get_header();
 <div class="container">
 	<div id="templatemo_main">
 		<div class="templatemo__main-left">
-			<h2> Latest Updates</h2>
+            <?php if(!dynamic_sidebar('templatemo_main_left_widget')):?>
+				<h2>Виджет последних записей Carbon</h2>
+            <?php endif;  ?>
 
-			<!--<div class="fp_news_box">
-				<img src="<?php /*bloginfo('template_url'); */ ?>/assets/images/templatemo_image_03.jpg" alt="News One"/>
-				<?php /*$javascript_posts = new WP_Query(['category_name' => 'javascript', 'posts_per_page' => 1]) */ ?>
-                <?php /*var_dump($javascript_posts);*/ ?>
-				<?php /*if ($javascript_posts->have_posts()) : while ($javascript_posts->have_posts()) : $javascript_posts->the_post(); */ ?>
-					<h6><a href="#">JavaScript</a></h6>
-					<p><?php /*the_excerpt();*/ ?></p>
-					<div class="fp_news_date"><?php /*echo get_the_date();*/ ?></div>
-					<div class="cleaner"></div>
-                <?php /*endwhile; */ ?><?php /*else: */ ?><?php /*endif; */ ?>
-			</div>
-
-			<div class="fp_news_box">
-				<img src="<?php /*bloginfo('template_url'); */ ?>/assets/images/templatemo_image_03.jpg" alt="News One"/>
-                <?php /*$php_posts = new WP_Query(['category_name' => 'php', 'posts_per_page' => 1]) */ ?>
-				<?php /*if ($php_posts->have_posts()) : while ($php_posts->have_posts()) : $php_posts->the_post(); */ ?>
-					<h6><a href="#">Php</a></h6>
-					<p><?php /*the_excerpt();*/ ?></p>
-					<div class="fp_news_date"><?php /*echo get_the_date();*/ ?></div>
-					<div class="cleaner"></div>
-                <?php /*endwhile; */ ?><?php /*else: */ ?><?php /*endif; */ ?>
-			</div>
-
-			<div class="fp_news_box">
-				<img src="<?php /*bloginfo('template_url'); */ ?>/assets/images/templatemo_image_03.jpg" alt="News One"/>
-                <?php /*$wordpress_posts = new WP_Query(['category_name' => 'wordpress', 'posts_per_page' => 1]) */ ?>
-				<?php /*if ($wordpress_posts->have_posts()) : while ($wordpress_posts->have_posts()) : $wordpress_posts->the_post(); */ ?>
-					<h6><a href="#">Wordpess</a></h6>
-					<p><?php /*the_excerpt();*/ ?></p>
-					<div class="fp_news_date"><?php /*echo get_the_date();*/ ?></div>
-					<div class="cleaner"></div>
-                <?php /*endwhile; */ ?><?php /*else: */ ?><?php /*endif; */ ?>
-			</div>
-
-			<a class="more" href="#">View All</a>-->
+			<a class="more" href="<?php echo get_page_uri(14);?>">View All</a>
 		</div>
 
 		<div class="templatemo__main-right">
