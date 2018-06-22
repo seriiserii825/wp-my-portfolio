@@ -1,3 +1,0 @@
-<component name="DependencyValidationManager">
-  <scope name="worpdress" pattern="file[wp-my-portfolio.loc]:wp-content/themes/my-portfolio/*&amp;&amp;!file[wp-my-portfolio.loc]:wp-content/themes/my-portfolio/assets//*&amp;&amp;!file[wp-my-portfolio.loc]:wp-content/themes/my-portfolio/html//*&amp;&amp;!file[wp-my-portfolio.loc]:wp-content/themes/my-portfolio/inc//*&amp;&amp;!file:wp-content/themes/my-portfolio/test.php" />
-</component>
