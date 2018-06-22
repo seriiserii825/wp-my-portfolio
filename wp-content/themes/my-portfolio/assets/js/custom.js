@@ -1,5 +1,7 @@
 $(function(){
-    $('.main-menu').smartmenus();
+    $('#js-close-menu').on('click', function(){
+        $('#menu-glavnoe-menyu').slideToggle();
+    });
 });
 
 function clearText(field)

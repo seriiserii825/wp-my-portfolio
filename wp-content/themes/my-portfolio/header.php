@@ -11,10 +11,12 @@
 <div id="templatemo_body_wrapper">
 	<div class="container">
 
-		<div class="header-main">
+		<div id="templatemo_header" class="container">
 
-			<div class="site_title">
+			<div id="site_title">
+
                 <?php the_custom_logo(); ?>
+
 			</div>
 
 			<div class="search_box">
@@ -26,10 +28,17 @@
 
 		</div> <!-- end of templatemo header -->
 
-		<div id="templatemo_menu">
+		<div id="templatemo_menu" class="container">
+			<div class="navbar">
+				<span class="menu">menu</span>
+				<div class="close-menu" id="js-close-menu">
+					<span></span><span></span><span></span>
+				</div>
+			</div>
+
             <?php wp_nav_menu([
                 'theme_location' => 'main-menu',
                 'container' => '',
-                'menu_class' => 'main-menu sm sm-blue'
+                'menu_class' => 'main-menu'
             ]); ?>
 		</div> <!-- end of templatemo_menu -->
