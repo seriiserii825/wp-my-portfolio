@@ -359,14 +359,23 @@ h6 {
 }
 
 .fp_services_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 260px;
     min-height: 135px;
     padding: 20px;
     margin-right: 20px;
-    background: url(../images/templamteo_service_bg.png) right center no-repeat;
     color: #fff;
     font-size: 16px;
     text-decoration: none;
+    background: linear-gradient(#64BAAB, #4f9789);
+    border-radius: 8px;
+    box-shadow: 0 8px 15px -4px rgba(0,0,0,.4);
+}
+
+.fp_services_box p {
+    text-shadow: 0 2px 5px rgba(0,0,0,.2);
 }
 
 @media screen and (max-width: 992px) {
