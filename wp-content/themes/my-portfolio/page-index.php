@@ -59,7 +59,7 @@ get_header();
 </div> <!-- end of templatemo fp services -->
 
 <div class="container">
-	<div id="templatemo_main">
+	<div id="templatemo_main" class="index">
 		<div class="templatemo__main__item templatemo__main-left">
             <?php if(!dynamic_sidebar('templatemo_main_left_widget')):?>
 				<h2>Виджет последних записей Carbon</h2>
@@ -90,6 +90,7 @@ get_header();
 	</div>
 </div>
 <div id="templatemo_main_bottom"></div>
-</div><!-- end of templatemo wrapper --></div> <!-- end of templatemo body wrapper -->
+</div><!-- end of templatemo wrapper -->
+</div> <!-- end of templatemo body wrapper -->
 
 <?php get_footer(); ?>

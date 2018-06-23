@@ -438,8 +438,11 @@ ul li a:hover {
 }
 
 #templatemo_main {
+    padding: 40px 10px;
+}
+
+#templatemo_main.index {
     display: flex;
-    padding: 30px 0;
 }
 
 .templatemo__main__item {
@@ -582,9 +585,19 @@ ul li a:hover {
     background: #fff;
 }
 
-#gallery {
-    margin: 0;
-    padding: 0
+.gallery {
+    display: grid;
+    margin: 0 auto;
+    max-width: 1100px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 20px;
+    grid-auto-rows: 260px auto;
+}
+
+.gallery__item {
+    border: 3px solid #7fcac9;
+    box-shadow: 0 6px 18px -4px rgba(0,0,0,.3);
+    overflow: hidden;
 }
 
 #gallery ul {
@@ -664,13 +677,15 @@ ul li a:hover {
 
 #templatemo_footer {
     clear: both;
-    padding: 10px 0;
-    color: #000;
-    text-align: center;
     margin: 0 auto;
+    padding: 40px 0;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
 }
 
 #templatemo_footer a {
+    font-size: inherit;
     color: #000;
     text-decoration: underline;
 }
@@ -684,11 +699,6 @@ ul li a:hover {
     margin: 0 auto;
     padding: 0 10px;
     max-width: 1200px;
-}
-
-#contact_form,
-#gallery{
-    display: none;
 }
 
 @media screen and (max-width: 450px) {

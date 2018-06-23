@@ -21,6 +21,7 @@ function crb_attach_post_options(){
     require_once __DIR__ . '/inc/carbon-fields/last-update-widget.php';
     require_once __DIR__ . '/inc/carbon-fields/category.php';
     require_once __DIR__ . '/inc/carbon-fields/about-fields.php';
+    require_once __DIR__ . '/inc/carbon-fields/portfolio.php';
 }
 
 

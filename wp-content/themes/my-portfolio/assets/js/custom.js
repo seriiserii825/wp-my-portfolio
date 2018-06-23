@@ -2,6 +2,8 @@ $(function(){
     $('#js-close-menu').on('click', function(){
         $('#menu-glavnoe-menyu').slideToggle();
     });
+
+    $('#gallery a.box').lightBox();
 });
 
 function clearText(field)
