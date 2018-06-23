@@ -89,6 +89,7 @@ get_header();
 
 	</div>
 </div>
-<div id="templatemo_main_bottom"></div></div><!-- end of templatemo wrapper --></div> <!-- end of templatemo body wrapper -->
+<div id="templatemo_main_bottom"></div>
+</div><!-- end of templatemo wrapper --></div> <!-- end of templatemo body wrapper -->
 
 <?php get_footer(); ?>

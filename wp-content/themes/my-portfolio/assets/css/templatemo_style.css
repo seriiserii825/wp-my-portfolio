@@ -687,8 +687,7 @@ ul li a:hover {
 }
 
 #contact_form,
-#gallery,
-#templatemo_footer_wrapper{
+#gallery{
     display: none;
 }
 
