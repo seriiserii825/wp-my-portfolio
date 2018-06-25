@@ -775,3 +775,12 @@ ul li a:hover {
         background: #ccc;
     }
 }
+
+.about-content {
+    display: grid;
+    grid-template-columns: auto 300px;
+    grid-column-gap: 30px;
+}
+.sidebar {
+    padding-top: 40px;
+}

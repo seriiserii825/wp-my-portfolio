@@ -61,11 +61,7 @@ get_header();
 <div class="container">
 	<div id="templatemo_main" class="index">
 		<div class="templatemo__main__item templatemo__main-left">
-            <?php if(!dynamic_sidebar('templatemo_main_left_widget')):?>
-				<h2>Виджет последних записей Carbon</h2>
-            <?php endif;  ?>
-
-			<a class="more" href="<?php echo get_page_uri(14);?>">View All</a>
+            <?php get_sidebar();?>
 		</div>
 
 		<div class="templatemo__main__item templatemo__main-center">
