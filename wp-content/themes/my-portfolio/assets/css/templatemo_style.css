@@ -506,7 +506,7 @@ ul li a:hover {
     vertical-align: top;
     margin-right: 10px;
     width: 40px;
-    height: 90px;
+    height: 50px;
 }
 
 .fp_news_box .content {
@@ -542,18 +542,12 @@ ul li a:hover {
     padding: 4px
 }
 
-#contact_form {
-    padding: 0;
-    width: 400px
-}
-
 #contact_form form {
     margin: 0;
     padding: 0;
 }
 
 #contact_form form .input_field {
-    width: 388px;
     color: #333;
     padding: 5px;
     border: 1px solid #ccc;
@@ -570,7 +564,6 @@ ul li a:hover {
 }
 
 #contact_form form textarea {
-    width: 388px;
     height: 200px;
     padding: 5px;
     color: #333;
@@ -784,3 +777,58 @@ ul li a:hover {
 .sidebar {
     padding-top: 40px;
 }
+
+.contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+}
+
+@media screen and (max-width: 680px) {
+    .contacts {
+        display: block;
+    }
+}
+
+.contacts-form input,
+.contacts-form textarea {
+    width: 100%;
+}
+
+.contacts__form {
+    width: 400px;
+}
+
+.contacts-content,
+.contacts-form {
+    padding-top: 40px;
+}
+
+.contacts-form input[type="submit"] {
+    cursor: pointer;
+}
+
+.contacts-form .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-form .buttons input {
+    width: 100px;
+}
+
+.blog-wrap {
+    display: grid;
+    grid-template-columns: auto 300px;
+    grid-column-gap: 40px;
+}
+
+.blog-content {
+    padding-top: 40px;
+}
+
+h2.post-title a {
+    font-size: 20px;
+    color: inherit;
+}
+

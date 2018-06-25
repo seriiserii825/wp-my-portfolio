@@ -21,7 +21,7 @@
 
 			<div class="search_box">
 				<form action="#" method="get">
-					<input type="text" value="Search" name="s" size="10" id="searchfield" title="searchfield"
+					<input type="text" value="Поиск" name="s" size="10" id="searchfield" title="searchfield"
 						   onfocus="clearText(this)" onblur="clearText(this)"/>
 				</form>
 			</div>

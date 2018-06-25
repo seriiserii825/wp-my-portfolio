@@ -15,8 +15,5 @@ function my_portfolio_scripts() {
     wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js', [], null, true );
     // подключаем js файл темы
 
-    if(is_page('portfolio')){
-        wp_enqueue_script( 'lightbox', get_template_directory_uri() .'/assets/js/jquery.lightbox-0.5.js', ['jquery'], null, true );
-    }
     wp_enqueue_script( 'my_portfolio', get_template_directory_uri() .'/assets/js/custom.js', ['jquery'], null, true );
 }
