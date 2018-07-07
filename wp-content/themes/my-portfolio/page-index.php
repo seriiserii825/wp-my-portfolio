@@ -7,17 +7,19 @@ get_header();
 
 <div id="templatemo_middle" class="container">
 
-	<img src="<?php echo carbon_get_post_meta(get_the_ID(), 'home_intro_img'); ?>" alt="Free Template"/>
 
-	<div id="mid_title">
-        <?php echo carbon_get_post_meta(get_the_ID(), 'home_intro_title') ?>
+	<div class="templatemo_middle-header">
+		<div id="mid_title">
+            <?php echo carbon_get_post_meta(get_the_ID(), 'home_intro_title') ?>
+			<p><?php echo carbon_get_post_meta(get_the_ID(), 'home_intro_text') ?></p>
+
+			<div id="learn_more"><a href="<?php echo get_page_uri(18) ?>"></a></div>
+		</div>
+		<div class="main-img-wrap">
+			<img src="<?php echo carbon_get_post_meta(get_the_ID(), 'home_intro_img'); ?>" alt="Free Template"/>
+		</div>
 	</div>
 
-	<p><?php echo carbon_get_post_meta(get_the_ID(), 'home_intro_text') ?></p>
-
-	<div id="learn_more"><a href="<?php echo get_page_uri(18) ?>"></a></div>
-
-	<div class="cleaner"></div>
 
 </div> <!-- end of middle -->
 

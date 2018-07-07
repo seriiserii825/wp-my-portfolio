@@ -16,4 +16,5 @@ function my_portfolio_scripts() {
     // подключаем js файл темы
 
     wp_enqueue_script( 'my_portfolio', get_template_directory_uri() .'/assets/js/custom.js', ['jquery'], null, true );
+    wp_enqueue_script( 'my_portfolio-easy-scroll', get_template_directory_uri() .'/assets/libs/jquery-easy-scroll/jquery.easeScroll.js', ['jquery'], null, true );
 }

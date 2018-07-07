@@ -399,6 +399,11 @@ ul li a:hover {
     margin-bottom: 10px;
 }
 
+.fp_services_box p {
+    height: 63px;
+    overflow: hidden;
+}
+
 .fp_services_box .fps_title a {
     color: #fff;
     font-size: 24px;
@@ -488,7 +493,7 @@ ul li a:hover {
 }
 
 #templatemo_main p {
-    margin-bottom: 10px
+    margin-bottom: 30px
 }
 
 
@@ -588,9 +593,66 @@ ul li a:hover {
 }
 
 .gallery__item {
+	position: relative;
     border: 3px solid #7fcac9;
     box-shadow: 0 6px 18px -4px rgba(0,0,0,.3);
     overflow: hidden;
+}
+
+.gallery__item .inner-block {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.gallery__item:hover .inner-block__item:first-child {
+	left: 0;
+}
+
+.gallery__item:hover .inner-block__item:last-child {
+	right: 0;
+}
+
+.gallery__item .inner-block__item {
+	position: relative;
+	width: 100%;
+	height: 50%;
+	text-align: center;
+	color: #fff;
+	background: rgba(0,0,0,.6);
+	transition: all .4s ease;
+}
+
+.gallery__item .inner-block-site-title {
+	position: relative;
+	top: 20px;
+}
+
+.gallery__item .inner-block__item h4 {
+	color: #bbb;
+}
+
+.gallery__item .inner-block__link {
+	left: -150%;
+}
+
+.gallery__item .inner-block__link a {
+	font-size: 20px;
+}
+
+.gallery__item .inner-block__review {
+	right: -150%;
+}
+
+.gallery__item .inner-block__item a{
+	text-decoration: none;
+	color: #ccc;
+}
+
+.gallery__item .inner-block__item a:hover{
+	text-decoration: underline;
 }
 
 #gallery ul {
@@ -831,4 +893,59 @@ h2.post-title a {
     font-size: 20px;
     color: inherit;
 }
+
+.main-img-wrap {
+    width: 256px;
+    height: 216px;
+}
+
+.templatemo_middle-header {
+    display: grid;
+    grid-template-columns: auto 256px;
+    grid-column-gap: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    .templatemo_middle-header {
+        display: block;
+    }
+}
+
+.error-404 {
+    padding-top: 80px;
+    text-align: center;
+    height: 100vh;
+}
+
+.error-404 .big-title {
+    margin-bottom: 40px;
+    font-size: 80px;
+}
+
+.error-404 .container {
+    height: 100%;
+}
+
+.error-404 a {
+    font-size:30px;
+}
+
+.single-date {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.single-wrap {
+    display: grid;
+    grid-template-columns: auto 360px;
+    grid-column-gap: 30px;
+}
+
+#disqus_thread {
+    padding: 20px;
+    color: #444;
+    background: #999;
+}
+
+
 
